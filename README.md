@@ -9,6 +9,11 @@ the cohort as a whole.
 direct operational use: flagging patients who need more support behind their discharge plan.
 
 ---
+## Patient Dashboard
+![Dashboard](figures/dashboard_patient.png)
+
+## Cohort Dashboard
+![Cohort overview](figures/dashboard_cohort.png)
 
 ## Results
 
