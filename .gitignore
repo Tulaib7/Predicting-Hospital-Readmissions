@@ -1,0 +1,28 @@
+# Never commit MIMIC-IV. It is credentialed data under a PhysioNet DUA.
+data/
+!data/.gitkeep
+*.csv
+*.csv.gz
+*.parquet
+
+# Model artifacts
+models/*.joblib
+!models/.gitkeep
+
+# Generated figures (uncomment to keep them out of the repo)
+# figures/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
